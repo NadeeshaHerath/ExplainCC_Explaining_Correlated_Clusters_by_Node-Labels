@@ -27,7 +27,7 @@ Input file formatis:
   
   Label file: Each line contains one node and one label.
   
-  <node id> <label id>
+  `<node id> <label id>`
 
 ##SBM_sparse
 
