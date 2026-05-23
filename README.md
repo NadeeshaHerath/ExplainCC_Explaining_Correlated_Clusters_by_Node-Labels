@@ -22,9 +22,11 @@ Usage:
 Input file formatis:
 
   Edge file: Each line contains one edge.
-  
-  `<node u> <node v>`
-  
+
+  ```text
+  <node u> <node v>
+  ```
+
   Label file: Each line contains one node and one label.
   
   `<node id> <label id>`
