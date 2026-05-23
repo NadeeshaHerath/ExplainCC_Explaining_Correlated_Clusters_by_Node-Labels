@@ -63,7 +63,12 @@ Output file formats:
 
 Node output file: Each line represents one cluster.
 
-<cluster id> <node 1> <node 2>
+`<cluster id> <node 1> <node 2>`
+
+Tree output file: Each line represents one split in the generated tree.
+
+`<parent node> <split label> <score> <left child> <right child>`
+
 
 #Data Generation
 
