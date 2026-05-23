@@ -23,10 +23,8 @@ Input file formatis:
 
   Edge file: Each line contains one edge.
 
-  ```text
-  <node u> <node v>
-  ```
-
+ ` <node u> <node v>`
+ 
   Label file: Each line contains one node and one label.
   
   `<node id> <label id>`
@@ -47,5 +45,16 @@ Usage:
     -o    node output file
     -t    tree output file
     -b    lambda value
+
+    Input file formatis:
+    
+    Both positive and negative edges are stored in separate files and each line in both contains one edge.
+
+    ` <node u> <node v>`
+ 
+    Label file: Each line contains one node and one label.
+  
+    `<node id> <label id>`
+
 
 #Data Generation
