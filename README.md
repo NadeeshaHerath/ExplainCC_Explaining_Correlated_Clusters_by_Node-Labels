@@ -17,7 +17,7 @@ Usage:
     -l    label input file
     -o    node output file
     -t    tree output file
-    -b    lambda value
+    -b    weight lambda value
 
 Input file formatis:
 
@@ -45,7 +45,7 @@ Usage:
     -l    label input file
     -o    node output file
     -t    tree output file
-    -b    lambda value
+    -b    weight lambda value
 
 Input file formatis:
     
