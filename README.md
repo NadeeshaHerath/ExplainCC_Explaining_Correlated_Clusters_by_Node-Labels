@@ -63,7 +63,7 @@ Output file formats:
 
 Node output file: Each line represents one cluster.
 
-`<cluster id> <node 1> <node 2>`
+`<cluster id> <node 1> <node 2> ...`
 
 Tree output file: Each line represents one split in the generated tree.
 
@@ -76,7 +76,7 @@ Tree output file: Each line represents one split in the generated tree.
 
 Usage:
 
-python SBM_full_data_generation.py
+    python SBM_full_data_generation.py
 
 This generates edge files and label files.
 
@@ -84,9 +84,15 @@ This generates edge files and label files.
 
 Usage:
 
-python SBM_sparse_data_generation.py
+    python SBM_sparse_data_generation.py
 
 This generates positive edge files, negative edge files and label files.
 
 
+## varying_nodes_and_edges
 
+Usage:
+
+    python varying_nodes_and_adges.py
+
+This generates edge files, and labels file for SBM_full with varying number of nodes and edges.
