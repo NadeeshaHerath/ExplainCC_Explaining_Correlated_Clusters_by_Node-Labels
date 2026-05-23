@@ -1,8 +1,8 @@
 This repository contains the implementation of EXPAND algorthm and scripts for synthetic data generation.
 
-#Algorithms
+# Algorithms
 
-##SBM_full
+## SBM_full
 
 This is for graphs with no negative edges.This takes an edge file and a label file as input and outputs the cluster assignments and its tree.
 
@@ -29,7 +29,7 @@ Input file formatis:
   
   `<node id> <label id>`
 
-##SBM_sparse
+## SBM_sparse
 
 This is for graphs with positive and negative edges.This takes an positive edge file, negative edge file and a label file as input and outputs the cluster assignments and its tree.
 
@@ -70,6 +70,23 @@ Tree output file: Each line represents one split in the generated tree.
 `<parent node> <split label> <score> <left child> <right child>`
 
 
-#Data Generation
+# Data Generation
+
+## Synthetic datasets generation of SBM_full
+
+Usage:
+
+python SBM_full_data_generation.py
+
+This generates edge files and label files.
+
+## Synthetic datasets generation of SBM_sparse
+
+Usage:
+
+python SBM_sparse_data_generation.py
+
+This generates positive edge files, negative edge files and label files.
+
 
 
