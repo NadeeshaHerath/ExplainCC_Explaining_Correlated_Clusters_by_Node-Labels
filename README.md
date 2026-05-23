@@ -34,6 +34,7 @@ Input file formatis:
 This is for graphs with positive and negative edges.This takes an positive edge file, negative edge file and a label file as input and outputs the cluster assignments and its tree.
 
 Usage:
+
     g++ SBM_sparse.cpp -o SBMsparsetree
     
     ./SBMsparsetree -p <positive edge file> -n <negative edge file> -l <label file> -o <node output file> -t <tree output file> -b <lambda>
@@ -56,5 +57,14 @@ Usage:
   
     `<node id> <label id>`
 
+    In both SBM_full, SBM_sparse,
+    
+    Output file formats:
+
+    Node output file: Each line represents one cluster.
+
+    <cluster id> <node 1> <node 2>
 
 #Data Generation
+
+
