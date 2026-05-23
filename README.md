@@ -89,7 +89,7 @@ Usage:
 This generates positive edge files, negative edge files and label files.
 
 
-## varying_nodes_and_edges
+## Synthetic datasets generation with varying_nodes_and_edges
 
 Usage:
 
