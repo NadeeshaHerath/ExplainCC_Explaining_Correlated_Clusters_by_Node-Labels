@@ -47,23 +47,23 @@ Usage:
     -t    tree output file
     -b    lambda value
 
-    Input file formatis:
+Input file formatis:
     
-    Both positive and negative edges are stored in separate files and each line in both contains one edge.
+Both positive and negative edges are stored in separate files and each line in both contains one edge.
 
-    ` <node u> <node v>`
+` <node u> <node v>`
  
-    Label file: Each line contains one node and one label.
+Label file: Each line contains one node and one label.
   
-    `<node id> <label id>`
+`<node id> <label id>`
 
-    In both SBM_full, SBM_sparse,
+In both SBM_full, SBM_sparse,
     
-    Output file formats:
+Output file formats:
 
-    Node output file: Each line represents one cluster.
+Node output file: Each line represents one cluster.
 
-    <cluster id> <node 1> <node 2>
+<cluster id> <node 1> <node 2>
 
 #Data Generation
 
